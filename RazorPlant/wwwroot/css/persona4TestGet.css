@@ -1,0 +1,76 @@
+/* Hacer la tabla responsiva */
+.table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd; /* Línea de separación entre celdas */
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color alternado para filas pares */
+}
+
+tr:hover {
+    background-color: #ddd; /* Fondo al pasar el mouse sobre una fila */
+}
+
+.btn-delete {
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+    .btn-delete:hover {
+        background-color: #c0392b;
+    }
+
+/* Responsividad: hacer que los textos de las celdas se ajusten en pantallas pequeñas */
+@media (max-width: 768px) {
+    table, th, td {
+        display: block;
+        width: 100%;
+    }
+
+    th {
+        text-align: left;
+    }
+
+    td {
+        position: relative;
+        padding-left: 50%;
+    }
+
+        td:before {
+            content: attr(data-label);
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-weight: bold;
+        }
+
+        td:first-child {
+            padding-top: 10px;
+        }
+
+        td:last-child {
+            padding-bottom: 10px;
+        }
+}

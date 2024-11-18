@@ -1,0 +1,50 @@
+﻿@page
+@{
+    ViewData["Title"] = "Lista de Personas";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+
+    <!-- Enlazar el archivo CSS externo -->
+    <link rel="stylesheet" href="~/css/persona4TestGet.css">
+
+</head>
+<body>
+
+    <h1>@ViewData["Title"]</h1>
+
+    <!-- Tabla para mostrar los resultados -->
+    <div class="table-responsive">
+        <table id="personaTable">
+            <thead>
+                <tr>
+                    <th>Acciones</th>
+                    <th>IdPersona</th>
+                    <th>Nombre</th>
+                    <th>ApPaterno</th>
+                    <th>ApMaterno</th>
+                    <th>FechaNacimiento</th>
+                    <th>Sexo</th>
+                    <th>Telefono</th>
+                    <th>Correo</th>
+                    <th>Saldo</th>
+                    <th>Activo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aquí se llenarán los datos con JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Script para enlazar el archivo de JavaScript externo -->
+    <script src="~/js/defaults.js"></script>
+    <script src="~/js/persona4testGet.js"></script>
+
+</body>
+</html>
