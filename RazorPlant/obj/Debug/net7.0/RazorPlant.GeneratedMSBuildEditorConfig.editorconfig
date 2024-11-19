@@ -18,12 +18,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\InternalDev\WebApiRazorPlant\RazorPlant
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/InternalDev/WebApiRazorPlant/RazorPlant/Pages/EjemploWebApiGet.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWplbXBsb1dlYkFwaUdldC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/InternalDev/WebApiRazorPlant/RazorPlant/Pages/EjemploWebApiPost.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWplbXBsb1dlYkFwaVBvc3QuY3NodG1s
+[D:/InternalDev/WebApiRazorPlant/RazorPlant/Pages/EjemploTablaConWebApi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWplbXBsb1RhYmxhQ29uV2ViQXBpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/InternalDev/WebApiRazorPlant/RazorPlant/Pages/Error.cshtml]
@@ -32,6 +28,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/InternalDev/WebApiRazorPlant/RazorPlant/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/InternalDev/WebApiRazorPlant/RazorPlant/Pages/Persona4TestForma.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGVyc29uYTRUZXN0Rm9ybWEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/InternalDev/WebApiRazorPlant/RazorPlant/Pages/Shared/_ValidationScriptsPartial.cshtml]

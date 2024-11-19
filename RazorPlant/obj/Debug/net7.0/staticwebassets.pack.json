@@ -5,12 +5,8 @@
       "PackagePath": "staticwebassets\\RazorPlant.bundle.scp.css"
     },
     {
-      "Id": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\wwwroot\\css\\persona4TestGet.css",
-      "PackagePath": "staticwebassets\\css\\persona4TestGet.css"
-    },
-    {
-      "Id": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\wwwroot\\css\\persona4TestPost.css",
-      "PackagePath": "staticwebassets\\css\\persona4TestPost.css"
+      "Id": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\wwwroot\\css\\EjemploTablaConWebApi.css",
+      "PackagePath": "staticwebassets\\css\\EjemploTablaConWebApi.css"
     },
     {
       "Id": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\wwwroot\\css\\site.css",
@@ -21,16 +17,16 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\wwwroot\\js\\EjemploTablaConWebApi.js",
+      "PackagePath": "staticwebassets\\js\\EjemploTablaConWebApi.js"
+    },
+    {
+      "Id": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\wwwroot\\js\\Persona4TestForma.js",
+      "PackagePath": "staticwebassets\\js\\Persona4TestForma.js"
+    },
+    {
       "Id": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\wwwroot\\js\\defaults.js",
       "PackagePath": "staticwebassets\\js\\defaults.js"
-    },
-    {
-      "Id": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\wwwroot\\js\\persona4TestGet.js",
-      "PackagePath": "staticwebassets\\js\\persona4TestGet.js"
-    },
-    {
-      "Id": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\wwwroot\\js\\persona4TestPost.js",
-      "PackagePath": "staticwebassets\\js\\persona4TestPost.js"
     },
     {
       "Id": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\wwwroot\\js\\site.js",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xVEZH7DbLwGB+uB8WDFNdcJ6Tc6CsECZWYNE/flo7Zo=",
+  "Hash": "XtwR45UiV7dvWAYUwNwZ8XrW4OZd4W0vLU2qrbiliPo=",
   "Source": "RazorPlant",
   "BasePath": "_content/RazorPlant",
   "Mode": "Default",
@@ -55,12 +55,12 @@
       "OriginalItemSpec": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\RazorPlant.bundle.scp.css"
     },
     {
-      "Identity": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\wwwroot\\css\\persona4TestGet.css",
+      "Identity": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\wwwroot\\css\\EjemploTablaConWebApi.css",
       "SourceId": "RazorPlant",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\wwwroot\\",
       "BasePath": "_content/RazorPlant",
-      "RelativePath": "css/persona4TestGet.css",
+      "RelativePath": "css/EjemploTablaConWebApi.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,26 +71,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\persona4TestGet.css"
-    },
-    {
-      "Identity": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\wwwroot\\css\\persona4TestPost.css",
-      "SourceId": "RazorPlant",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\wwwroot\\",
-      "BasePath": "_content/RazorPlant",
-      "RelativePath": "css/persona4TestPost.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\persona4TestPost.css"
+      "OriginalItemSpec": "wwwroot\\css\\EjemploTablaConWebApi.css"
     },
     {
       "Identity": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\wwwroot\\css\\site.css",
@@ -150,12 +131,12 @@
       "OriginalItemSpec": "wwwroot\\js\\defaults.js"
     },
     {
-      "Identity": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\wwwroot\\js\\persona4TestGet.js",
+      "Identity": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\wwwroot\\js\\EjemploTablaConWebApi.js",
       "SourceId": "RazorPlant",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\wwwroot\\",
       "BasePath": "_content/RazorPlant",
-      "RelativePath": "js/persona4TestGet.js",
+      "RelativePath": "js/EjemploTablaConWebApi.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -166,15 +147,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\persona4TestGet.js"
+      "OriginalItemSpec": "wwwroot\\js\\EjemploTablaConWebApi.js"
     },
     {
-      "Identity": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\wwwroot\\js\\persona4TestPost.js",
+      "Identity": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\wwwroot\\js\\Persona4TestForma.js",
       "SourceId": "RazorPlant",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\wwwroot\\",
       "BasePath": "_content/RazorPlant",
-      "RelativePath": "js/persona4TestPost.js",
+      "RelativePath": "js/Persona4TestForma.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,7 +166,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\persona4TestPost.js"
+      "OriginalItemSpec": "wwwroot\\js\\Persona4TestForma.js"
     },
     {
       "Identity": "D:\\InternalDev\\WebApiRazorPlant\\RazorPlant\\wwwroot\\js\\site.js",

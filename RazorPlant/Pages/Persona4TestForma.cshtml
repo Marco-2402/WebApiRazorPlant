@@ -1,0 +1,73 @@
+﻿@page
+@{
+    Layout = null;
+    ViewData["Title"] = "Formulario Persona4Test";
+}
+
+<div class="container">
+    <div class="form-container">
+        <h2 class="text-center">Captura Persona</h2>
+        <form id="personaForm">
+            <div class="row">
+                <div class="col-md-4 form-group">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="col-md-4 form-group">
+                    <label for="apPaterno" class="form-label">Apellido Paterno</label>
+                    <input type="text" class="form-control" id="apPaterno" required>
+                </div>
+                <div class="col-md-4 form-group">
+                    <label for="apMaterno" class="form-label">Apellido Materno</label>
+                    <input type="text" class="form-control" id="apMaterno" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 form-group">
+                    <label for="fechaNacimiento" class="form-label">Fecha de Nacimiento</label>
+                    <input type="date" class="form-control" id="fechaNacimiento" required>
+                </div>
+                <div class="col-md-4 form-group">
+                    <label for="sexo" class="form-label">Sexo</label>
+                    <select class="form-control" id="sexo" required>
+                        <option value="M">Masculino</option>
+                        <option value="F">Femenino</option>
+                    </select>
+                </div>
+                <div class="col-md-4 form-group">
+                    <label for="telefono" class="form-label">Teléfono</label>
+                    <input type="tel" class="form-control" id="telefono" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 form-group">
+                    <label for="correoElectronico" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="correoElectronico" required>
+                </div>
+                <div class="col-md-4 form-group">
+                    <label for="saldo" class="form-label">Saldo</label>
+                    <input type="number" class="form-control" id="saldo" step="0.01" required>
+                </div>
+                <div class="col-md-4 form-group">
+                    <label for="activo" class="form-label">Activo</label>
+                    <select class="form-control" id="activo" required>
+                        <option value="true">Sí</option>
+                        <option value="false">No</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 form-group">
+                    <label for="comentarios" class="form-label">Comentarios</label>
+                    <textarea class="form-control" id="comentarios" rows="3"></textarea>
+                </div>
+            </div>
+
+            <button id="btnGuardar" class="btn btn-primary btn-block">Guardar</button>
+        </form>
+        <div id="responseMessage" class="mt-3"></div>
+    </div>
+</div>

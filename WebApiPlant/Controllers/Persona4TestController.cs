@@ -35,8 +35,28 @@ public class Persona4TestController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> Create([FromBody] Persona4Test persona)
     {
-        var rowsAffected = await service.CreateAsync(persona);
-        return Ok(new { Message = "Registro insertado con éxito.", RowsAffected = rowsAffected });
+        var rowsAffected = await service.CreateAsync(persona);        
+        return Ok(new { Message = "Registro guardado con éxito.", RowsAffected = rowsAffected });
+    }
+
+    /// <summary>
+    /// Actualiza un registro de Persona4Test por su ID.
+    /// </summary>
+    /// <param name="id">ID del registro a actualizar.</param>
+    /// <param name="persona">Objeto con los nuevos datos de la persona.</param>
+    [HttpPost("{id}")]
+    public async Task<IActionResult> Update(int id, [FromBody] Persona4Test persona)
+    {
+        // Establecer el ID de la persona con el parámetro recibido
+        persona.IdPersona = id;
+
+        // Llamar al servicio para actualizar el registro
+        var rowsAffected = await service.UpdateAsync(persona);
+
+        if (rowsAffected == 0)
+            return NotFound(new { Message = "Registro no encontrado." });
+
+        return Ok(new { Message = "Registro actualizado con éxito.", RowsAffected = rowsAffected });
     }
 
     /// <summary>

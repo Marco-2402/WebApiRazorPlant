@@ -5,6 +5,7 @@ namespace WebApiPlant.Controllers;
 /// </summary>
 public class Persona4Test
 {
+    public int? IdPersona { get; set; }
     public string? Nombre { get; set; }
     public string? ApPaterno { get; set; }
     public string? ApMaterno { get; set; }
